@@ -1,0 +1,32 @@
+<SpaceSettings>
+  <EasterEgg>false</EasterEgg>
+  <UniverseSize>750</UniverseSize>
+  <MSPerFrame>16</MSPerFrame>
+  <FramesPerShot>6</FramesPerShot>
+  <RespawnRate>300</RespawnRate>
+  <HitPoints>5</HitPoints>
+  <SafeSpawnDist>200</SafeSpawnDist>
+  <ProjectileSpeed>15</ProjectileSpeed>
+  <EngineStrength>0.08</EngineStrength>
+  <TurningRate>2</TurningRate>
+  <ShipSize>20</ShipSize>
+  <StarSize>35</StarSize>
+  <AttackerSpeed>2</AttackerSpeed>
+  <AttackerFramesPerShot>18</AttackerFramesPerShot>
+  <AttackerEngineStrength>0.04</AttackerEngineStrength>
+  <AttackerProjectileSpeed>8</AttackerProjectileSpeed>
+  <ProjectileGravity>0</ProjectileGravity>
+  <Star>
+    <x>180</x>
+    <y>-180</y>
+    <mass>0.01</mass>
+  </Star>
+
+
+  <Star>
+    <x>-180</x>
+    <y>180</y>
+    <mass>0.005</mass>
+  </Star>
+
+</SpaceSettings>

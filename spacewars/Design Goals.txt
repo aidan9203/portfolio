@@ -1,0 +1,66 @@
+﻿Aidan Buckner and Luke Falslev
+CS 3500
+December 6th, 2018
+
+---------------------------------------------------------------CLIENT (PS7)---------------------------------------------------------------
+Visions for the game:
+-The scoreboard colors are personalized by ship, and only displays stats for currently connected players
+-Listed players are sorted by score
+-Scoreboard health bars change color based on player health
+-Explosions are one of 4 possible animations and are determined by ship ID
+-Game can be played using arrow keys or WASD
+-Game handles invalid IP addresses and names gracefully (without crashing, allows reconnect)
+-User can tab through text fields and press enter to initiate connection to a server
+-Option to show framerate in the help menu
+
+Difficulties with implementation:
+-Encountered large issue where more threads were recieving server data than intended, caused a race condition with the growable message buffer
+-Correct implementation of networking code was confusing
+-Getting ships and projectiles to be centered on their axis of rotation
+-Deserializing and serializing JSON objects to be sent to or recieved from the server
+
+
+
+
+---------------------------------------------------------------SERVER (PS8)---------------------------------------------------------------
+SETTINGS.XML
+The server can be customized via the settings.xml file located in the resources project:
+-EasterEgg: Whether to enable the Galaga-like special gamemode (deafult=false)
+-UniverseSize: The size of the universe (deafult=750)
+-MSPerFrame: Framerate of the game (default=16)
+-FramesPerShot: Fire rate of ships (default=6)
+-RespawnRate: Respawn time for ships (default=300)
+-HitPoints: Starting health for ships (default=5)
+-SafeSpawnDist: Minimum distance from stars for safe spawning (default=200)
+-ProjectileSpeed: The speed of projectiles (default=15)
+-EngineStrength: The strength of ship thrusters (default=0.08)
+-TurningRate: The maneuverability of ships (default=2)
+-ShipSize: The collision radius for ships (default=20)
+-StarSize: The collision radius for stars (default=35)
+-AttackerSpeed: The vertical speed of easteregg attackers (default=2)
+-AttackerFramesPerShot: The fire rate of easteregg attackers (default=18)
+-AttackerEngineStrength: The engine strength of easteregg attackers (default=0.04)
+-AttackerProjectileSpeed: The projectile speed of easteregg attackers (default=8)
+-ProjectileGravity: How much projectiles are affected by gravity (default=0)
+
+
+EXTRA FEATURES:
+Projectile gravity:
+-Can be enabled by increasing ProjectileGravity setting in settings.xml
+-Zero means no gravity
+
+EasterEgg gamemode:
+-Can be enabled by changing EasterEgg setting in settings.xml to true
+-1/4 of players are designated defenders, the rest attackers
+-Defenders start at the bottom of the screen and can only move horizontally
+-Attackers start at the top of the screen and slowly scroll down (can move back up with the thrust key)
+-Attackers have 1hp, reduced movement speed, and reduced fire rate
+-Attackers cannot hurt other attackers, defenders cannot hurt other defenders
+-Stars scroll down the screen at half the speed of the attackers, number of stars determined by stars set in settings.xml
+-Turning on bullet gravity in settings.xml and adding more stars makes this gamemode more interesting because it makes players rely on curving bullets more than moving
+-Because the movement system differs greatly from the standard game and because there are teams, the provided AI client does not understand this gamemode
+
+
+TESTING:
+We were able to test the majority of our server logic methods, but were unable to test our message generating method because the PrivateObject we are using seems to dislike Newtonsoft.JSON.
+We were also unable to test networking methods such as our methods for sending and recieving client data because we were unable to simulate sockets.

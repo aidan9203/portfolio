@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Rover Wheel
+  - Rover Motor
+  - Rover Seat
+  - Rover Storage
+  - Rover Controller
+  - Rover Battery
+  - Rover Frame Lower
+  - Rover Frame Upper
+  - Rover Frame Side
+  - Rover Controller Left
+  - Rover Controller Right
+  - Apple
+  - Orange
+  - Bananna
+  - Sandwich
+  - Water
+  - Oxygen
+  - Handle
+  - Climbable
+  - Lid
+  - Hand
+  - Holdable
+  - Lander Throttle
+  - Lander Joystick
+  - Potato
+  - Carrot
+  - Dirt
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - Rover
+  - Holdable
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

@@ -1,0 +1,5 @@
+SpaceWars was created by my partner and I for our software practice final project. The purpose of the assignment was to first create a client capable of sending and recieving messages, and then to create a simple server capable of communicating with multiple clients concurrently. A secondary goal of the project was to use the interpreted messages to render two-dimensional images and animations to the screen.
+
+The game was written in C# and uses simple JSON encoding for messages between the server and clients. The game is played by using WASD or the arrow keys for movement, and the F key or space bar can be used to fire at other ships. The server can be configured to the player's liking through the settings.xml file and requires port 11000 to communicate with clients.
+
+The University of Utah forbits publishing assignment solutions to public repositories, but I can glady provide a copy of the source code through private means if desired.

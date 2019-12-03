@@ -1,0 +1,3 @@
+My favorite video game art style is low poly because when done right a low poly world still conveys a beautiful scene to the player without requiring top-end gaming hardware. Many modern games place so much emphasis on realistic graphics that it can actually be hard to see details within the world. Simple styles such as low poly can be beautiful because they place focus on the artist's style more than the technologies used to render the most realistic image possible.
+
+This folder contains some of my favorite low poly work including an explorable winter scene complete with underground tunnel system and a rendering of an island scene I used to practice bump mapping and reflective materials.
