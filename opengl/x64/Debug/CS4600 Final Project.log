@@ -1,0 +1,38 @@
+﻿  main.cpp
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\math.h(17): warning C4005: 'MStoS': macro redefinition
+  c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\math.h(16): note: see previous definition of 'MStoS'
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(325): warning C4018: '<': signed/unsigned mismatch
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(350): warning C4018: '<': signed/unsigned mismatch
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(374): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(375): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(396): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(411): warning C4244: '-=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(422): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(423): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(427): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(428): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(435): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(436): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(437): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(538): warning C4244: '=': conversion from '_Rep' to 'int', possible loss of data
+          with
+          [
+              _Rep=__int64
+          ]
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\main.cpp(556): warning C4018: '<': signed/unsigned mismatch
+  math.cpp
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\math.h(17): warning C4005: 'MStoS': macro redefinition
+  c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\math.h(16): note: see previous definition of 'MStoS'
+  object3D.cpp
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\math.h(17): warning C4005: 'MStoS': macro redefinition
+  c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\math.h(16): note: see previous definition of 'MStoS'
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\object3d.cpp(42): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\object3d.cpp(45): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\object3d.cpp(71): warning C4018: '<': signed/unsigned mismatch
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\object3d.cpp(205): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\object3d.cpp(206): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\object3d.cpp(209): warning C4018: '<': signed/unsigned mismatch
+c:\users\aidan\onedrive\documents\personal\portfolio\portfolio\opengl\object3d.cpp(228): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  CS4600 Final Project.vcxproj -> C:\Users\aidan\OneDrive\Documents\Personal\Portfolio\portfolio\opengl\x64\Debug\CS4600 Final Project.exe
